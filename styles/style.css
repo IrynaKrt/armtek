@@ -33,7 +33,7 @@ li {
 
 .tel-icon {
     display: block;
-    background-image: url("/assets/images/icons/phone-black.svg");
+    background-image: url("../assets/images/icons/phone-black.svg");
     background-repeat: no-repeat;
     width: 23.11px;
     height: 24px;
@@ -41,7 +41,7 @@ li {
 
 .tel-icon-color {
     display: block;
-    background-image: url("/assets/images/icons/phone-orange.svg");
+    background-image: url("../assets/images/icons/phone-orange.svg");
     background-repeat: no-repeat;
     width: 23.11px;
     height: 24px;
@@ -49,7 +49,7 @@ li {
 
 .tel-numm {
     display: block;
-    background-image: url("/assets/images/icons/numer.svg");
+    background-image: url("../assets/images/icons/numer.svg");
     background-repeat: no-repeat;
     width: 70px;
     height: 23px;
@@ -57,7 +57,7 @@ li {
 
 .marker-orange {
     display: flex;
-    background-image: url("/assets/images/icons/check-orange.svg");
+    background-image: url("../assets/images/icons/check-orange.svg");
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
@@ -66,7 +66,7 @@ li {
 
 .marker-red {
     display: flex;
-    background-image: url("/assets/images/icons/check-red.svg");
+    background-image: url("../assets/images/icons/check-red.svg");
     background-repeat: no-repeat;
     width: 16px;
     height: 16px;
@@ -224,11 +224,11 @@ li {
     height: 100%;
     border: 1px solid #dcdcdc;
     border-radius: 8px;
-    padding: 0 12px 0 40px; /* место под лупу */
+    padding: 0 12px 0 40px;
     font-size: 14px;
     outline: none;
 
-    background-image: url("/assets/images/icons/search.svg");
+    background-image: url("../assets/images/icons/search.svg");
     background-repeat: no-repeat;
     background-position: 12px center;
     background-size: 16px;
@@ -424,7 +424,7 @@ li {
 }
 
 .banner__title {
-    background-image: url("/assets/images/icons/tilte-bg.svg");
+    background-image: url("../assets/images/icons/tilte-bg.svg");
     background-repeat: no-repeat;
     background-size: contain;
     margin-bottom: 17px;
