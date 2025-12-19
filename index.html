@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/response.css">
+    <title>Новости</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__top">
+                <div class="header__top-content">
+                    <!-- Логотип -->
+                    <div class="header__logo">
+                        <img src="./assets/images/logo.png" alt="ARMTEK">
+                        <!-- Страна -->
+                        <div class="header__country">
+                            <span>RU</span>
+                            <img src="./assets/images/icons/arrow.svg" alt="RU">
+                        </div>
+                    </div>
+
+                    <!-- Поиск -->
+                    <form class="header__search">
+                        <input type="search" class="header__search-input">
+                        <span class="header__search-hint">Искать</span>
+                    </form>
+
+                    <!-- Правая часть -->
+                    <div class="header__actions">
+                        <button class="btn btn-header">
+                            Подбор запчастей
+                        </button>
+
+                        <button class="btn btn-gray btn-header">
+                            Опт
+                        </button>
+
+                        <div class="header__icons-block">
+                            <div class="header__icons">
+                                <a href="#" class="header__icon viber"><img src="./assets/images/icons/viber.svg"
+                                        alt="viber"></a>
+                                <a href="#" class="header__icon whatsapp"><img src="./assets/images/icons/whatsapp.svg"
+                                        alt="whatsapp"></a>
+                                <a href="#" class="header__icon telegram"><img src="./assets/images/icons/telegram.svg"
+                                        alt="telegram"></a>
+                            </div>
+                            <p class="header__icons-text">Мы в мессенджерах</p>
+                        </div>
+
+                        <div class="header__contact">
+                            <a href="#" class="btn btn-header btn-outlineless">
+                                <span class="tel-icon"></span><span class="tel-numm"></span>
+                                <img src="./assets/images/icons/arrow-orange.svg" alt="arrow">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="burger" aria-label="Открыть меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+            <div class="header__bottom">
+                <nav class="header__nav">
+                    <a href="#" class="header__link">Покупателям</a>
+                    <a href="#" class="header__link">Легковые запчасти</a>
+                    <a href="#" class="header__link">Грузовые запчасти</a>
+                    <a href="#" class="header__link">Транспортные услуги</a>
+                    <a href="#" class="header__link">Об ARMTEK</a>
+                    <a href="#" class="header__link">Партнерские сети</a>
+                </nav>
+            </div>
+
+        </div>
+
+        <div class="mobile-menu">
+            <div class="mobile-menu__content">
+                <button class="mobile-menu__close" aria-label="Закрыть меню"></button>
+
+                <nav class="mobile-menu__nav">
+                    <a href="#">Покупателям</a>
+                    <a href="#">Легковые запчасти</a>
+                    <a href="#">Грузовые запчасти</a>
+                    <a href="#">Транспортные услуги</a>
+                    <a href="#">Об ARMTEK</a>
+                    <a href="#">Партнерские сети</a>
+                </nav>
+
+                <div class="mobile-menu__actions">
+                    <a class="btn btn-header">Подбор запчастей</a>
+                    <a class="btn btn-gray btn-header">Опт</a>
+
+                    <div class="header__icons">
+                        <a href="#"><img src="./assets/images/icons/viber.svg"></a>
+                        <a href="#"><img src="./assets/images/icons/whatsapp.svg"></a>
+                        <a href="#"><img src="./assets/images/icons/telegram.svg"></a>
+                    </div>
+                    <p class="header__icons-text">Мы в мессенджерах</p>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="container banner__container">
+                <div class="banner__content">
+                    <div class="banner__title">
+                        <h2>АКЦИЯ В ИЮЛЕ</h2>
+                    </div>
+
+                    <div class="banner__offers">
+                        <div class="offer">
+                            <div class="offer__percent">
+                                <div class="offer__percent-text">
+                                    <h3>-10%</h3>
+                                    <span>СКИДКА НА ФИЛЬТРЫ</span>
+                                </div>
+                                <img src="./assets/images/oil-2.png" alt="offer2">
+                            </div>
+
+                            <div class="offer__text">
+                                <p>при покупке <span class="white-circle">любого</span> масла и 2 фильтров</p>
+                            </div>
+                        </div>
+
+                        <div class="offer">
+                            <div class="offer__percent">
+                                <div class="offer__percent-text">
+                                    <h3>-15%</h3>
+                                    <span>СКИДКА НА ФИЛЬТРЫ</span>
+                                </div>
+                                <img src="./assets/images/oil-3.png" alt="offer3">
+                            </div>
+
+                            <div class="offer__text">
+                                <p>при покупке любого масла и 3+ фильтров</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="banner__image">
+                    <img src="./assets/images/oils.png" alt="oils">
+                </div>
+            </div>
+        </section>
+
+        <section class="discount">
+            <div class="container discount__container">
+                <div class="discount__info">
+                    <h2 class="section__title section__title-discount">как получить скидку на фильтры?</h2>
+                    <p class="discount__info-text">С 1 по 31 июля 2024, при покупке любого моторного масла и двух или
+                        трёх и более фильтров, Вы получаете скидку <b>10% и 15%</b> соответсвенно на покупку других
+                        фильтров
+                        <br />Полный список товаров, участвующих в акции, можно посмотеть ниже:
+                    </p>
+                    <div class="discount__info-buttons">
+                        <a href="#" class="btn btn-color btn-discount">Список масел</a>
+                        <a href="#" class="btn btn-discount">Список фильтров</a>
+                    </div>
+                </div>
+                <div class="discount__image">
+                    <img src="./assets/images/oil-4.png" alt="oil">
+                </div>
+            </div>
+        </section>
+        <section class="conditions">
+            <div class="container conditions__container">
+                <h2 class="section__title section__title-conditions">Условия акции</h2>
+                <ul class="conditions__list">
+                    <li class="conditions__list-item"><span class="marker-orange"></span>
+                        <p>Акция действую <b>с 1 по 31
+                                июля 2024</b> года во всех магазинах ARMTEK;</p>
+                    </li>
+                    <li class="conditions__list-item"><span class="marker-orange"></span>
+                        <p>В акции участвуют только
+                            <b>физические лица</b>;
+                        </p>
+                    </li>
+                    <li class="conditions__list-item"><span class="marker-orange"></span>
+                        <p>В акции участвуют товары,
+                            находящиеся в <b>наиличии</b>;</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="belts">
+            <div class="container belts__container">
+                <div class="belts__info">
+                    <h2 class="section__title-belts">При эксплуатации стяжных ремней следует соблюдать следующие
+                        требования и правила:</h2>
+                    <ul class="belts__list">
+                        <li class="belts__list-item"><span class="marker-red"></span>
+                            <p>Размещать ремни над грузом следует как можно <b>равномернее</b>.</p>
+                        </li>
+                        <li class="belts__list-item"><span class="marker-red"></span>
+                            <p>Нагрузка на ремни <b>не должна превышать</b> допустимый максимум.</p>
+                        </li>
+                        <li class="belts__list-item"><span class="marker-red"></span>
+                            <p><b>Запрещено</b> делать на ременной ленте какие-либо узлы.</p>
+                        </li>
+                        <li class="belts__list-item"><span class="marker-red"></span>
+                            <p><b>Нельзя натягивать</b> ремни на острую поверхность объекта.</p>
+                        </li>
+                        <li class="belts__list-item"><span class="marker-red"></span>
+                            <p>При установке ремней нужно следить за тем, чтобы они <b>не перекрутились</b> и
+                                <b>максимально обхватывали</b> объект.
+                            </p>
+                        </li>
+                        <li class="belts__list-item"><span class="marker-red"></span>
+                            <p>Ни в коем случае посредством ремней <b>нельзя поднимать груз</b>, а следует использовать
+                                строго по назначению, т. е. для крепежа.</p>
+                        </li>
+                        <li class="belts__list-item"><span class="marker-red"></span>
+                            <p>Перед использованием ремней обязательно <b>нужно проверять</b> их на предмет повреждений
+                                и деформаций.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="belts__image">
+                    <img src="./assets/images/bels.png" alt="bel">
+                </div>
+            </div>
+        </section>
+        <section class="cta-selection">
+            <div class="container cta-selection__container">
+                <h2 class="section__title section__title-cta-selection">Как правильно подобрать масло и фильтр для
+                    своего авто?</h2>
+                <div class="cta-selection__info">
+                    <p class="cta-selection__text">Подобрать моторное масло онлайн и оформить заказ можно в нашем
+                        сервисе подбора запчастей:</p>
+                    <a href="#" class="btn btn-color btn-cta-selection">Подобрать online</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__buttons">
+                <a href="tel:7600" class="btn btn-footer"><span class="tel-icon-color"></span><span
+                        class="tel-numm"></span></a>
+                <a href="#" class="btn btn-color btn-footer">адреса магазинов</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,170 @@
+@media (max-width: 1180px) {
+    .container {
+        margin: 0 20px;
+    }
+
+    .header__actions,
+    .header__bottom {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .header__search {
+        flex: 1;
+    }
+
+    .banner::after {
+        width: 100%;
+    }
+
+    .banner__container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .banner__content {
+        max-width: 100%;
+        margin-right: auto;
+    }
+    
+    .banner__title {
+        margin-bottom: 27px;
+        margin-right: 10px;
+    }
+    
+    .banner__offers {
+        display: flex;
+        gap: 100px;
+        padding-left: 0;
+    }
+
+    .offer__percent img {
+        right: -30px;
+    }
+
+    .offer__text {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .offer__percent img {
+        display: none;
+    }
+
+    .discount__info {
+        max-width: 100%;
+    }
+
+    .discount__image {
+        display: none;
+    }
+    
+    .discount__info-buttons {
+        flex-direction: column;
+
+    }
+
+    .belts__image {
+        display: none;
+    }
+
+    .cta-selection__info {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .section__title {
+        font-size: 28px;
+        line-height: 110%;
+    }
+
+    .btn {
+        font-size: 14px !important;
+    }
+
+    .banner__content {
+        margin-right: 0;
+    }
+
+    .banner__offers {
+        gap: 24px;
+    }
+
+    .banner__title h2 {
+        font-size: 36px;
+        line-height: 110%;
+        margin-left: 40px;
+    }
+
+    .offer__percent-text h3 {
+        font-size: 50px;
+    }
+
+    .discount__info-text,
+    .conditions__list-item,
+    .cta-selection__text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 660px) {
+    .header__top-content {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .header__search-input {
+        padding: 10px 12px 10px 40px;
+    }
+}
+
+@media (max-width: 520px) {
+
+    .banner__content {
+        margin-right: 0;
+    }
+
+    .banner__offers {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .banner__title h2 {
+        font-size: 28px;
+        padding: 12px 0 12px;
+        margin-left: 10px;
+    }
+
+    .offer__percent-text h3 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .banner__title h2 {
+        padding: 6px 0 12px;
+    }
+
+    .footer__buttons {
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 378px) {
+
+    .banner__title h2 {
+        padding: 0 0 12px;
+    }
+}
